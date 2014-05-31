@@ -2,7 +2,9 @@
 
 use Trade qw(call put closure);
 
-my $exp = 6800;
+$header = 0;
+
+my $exp = 7200;
 
 my %cont = (
 	'7000CE', -100,
@@ -16,7 +18,6 @@ my %cont = (
 );
 
 foreach $key (sort keys %cont) {
-	print "$key -> $cont{$key} \n";
 	
 	$key =~ m/(\d+)(\w+)/;
 	my $dno = $1;
@@ -27,9 +28,9 @@ foreach $key (sort keys %cont) {
 		&call($dno, $qty, $exp);
 	} 
 	
-	if ( $typ =~ m/CE/ ) {		
-		&put($dno, $qty);
+	if ( $typ =~ m/PE/ ) {		
+		&put($dno, $qty, $exp);
 	}
 	
-	exit(0);
+	#exit(0);
 }

@@ -12,8 +12,6 @@ sub call {
 	my $qt = $_[1];
 	my $ex = $_[2];
 	
-	print "$dn CE => $qt \n\n";	
-	
 	my $t_val = $dn * $qt;
 	my $c_val = $ex * -$qt;
 	my $d_val = $t_val + $c_val;
@@ -34,23 +32,43 @@ sub call {
 		}
 	}
 	
-	print "Expiry: $ex \n";
-	&closure($t_val, $c_val, $n_val);
+	&closure($t_val, $c_val, $n_val, $ex);
 	
 }
 
 sub put {
-	#put sub;
+	my $dn = $_[0];
+	my $qt = $_[1];
+	my $ex = $_[2];
+	
+	my $t_val = $dn * $qt;
+	my $c_val = $ex * -$qt;
+	my $d_val = $t_val + $c_val;
+	my $n_val;
+		
+	if ($ex > $dn ) {
+		$n_val = 0;						
+	} else {
+		$n_val = $d_val;
+	}
+	
+	&closure($t_val, $c_val, $n_val, $ex);
 }
 
 sub closure {
-	my $sv = $_[0];
+	my $tv = $_[0];
 	my $cv = $_[1];
 	my $nv = $_[2];
+	my $expiry = $_[3];
 	
-	print "\n  tv     <=>    cv    <=>     nv \n";
-	print "-----------------------------------\n";
-	print "$sv  <=>  $cv  <=>    $nv \n";
+	if ( $header == 0 ) {
+		print "\nExpiry: $expiry \n";
+		print "\n trd_val         cov_val           net_val \n";
+		print "-----------------------------------------------\n";
+		$header = 1;
+	}
+	
+	print " $tv          $cv            $nv \n";
 	
 }
 
