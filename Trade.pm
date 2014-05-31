@@ -32,7 +32,7 @@ sub call {
 		}
 	}
 	
-	&closure($t_val, $c_val, $n_val, $ex);
+	&closure($dn, 'CE', $qt, $t_val, $c_val, $n_val, $ex);
 	
 }
 
@@ -52,23 +52,27 @@ sub put {
 		$n_val = $d_val;
 	}
 	
-	&closure($t_val, $c_val, $n_val, $ex);
+	#&closure($t_val, $c_val, $n_val, $ex);
+	&closure($dn, 'PE', $qt, $t_val, $c_val, $n_val, $ex);
 }
 
 sub closure {
-	my $tv = $_[0];
-	my $cv = $_[1];
-	my $nv = $_[2];
-	my $expiry = $_[3];
+	my $deno = $_[0];
+	my $typ = $_[1];
+	my $qty = $_[2];
+	my $tv = $_[3];
+	my $cv = $_[4];
+	my $nv = $_[5];
+	my $expiry = $_[6];
 	
 	if ( $header == 0 ) {
 		print "\nExpiry: $expiry \n";
-		print "\n trd_val         cov_val           net_val \n";
-		print "-----------------------------------------------\n";
+		print "\n   contract          trd_val        cov_val        net_val \n";
+		print "-------------------------------------------------------------\n";
 		$header = 1;
 	}
 	
-	print " $tv          $cv            $nv \n";
+	print " $deno $typ $qty       $tv         $cv         $nv \n";
 	
 }
 
