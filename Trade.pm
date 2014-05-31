@@ -67,12 +67,12 @@ sub closure {
 	
 	if ( $header == 0 ) {
 		print "\nExpiry: $expiry \n";
-		print "\n   contract          trd_val        cov_val        net_val \n";
-		print "-------------------------------------------------------------\n";
+		printf "\n   %-12s %14s %15s %15s\n", "Contract", "Trade Val", "Cov Value", "Net Value";
+		print '-' x 65 . "\n";
 		$header = 1;
 	}
 	
-	print " $deno $typ $qty       $tv         $cv         $nv \n";
+	printf " %-4s %-2s %4s %15s %14s %16s \n", $deno, $typ, $qty, $tv, $cv, $nv;
 	
 }
 
