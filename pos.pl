@@ -3,8 +3,13 @@
 use Trade qw(call put closure);
 
 $header = 0;
+my $exp;
 
-my $exp = 7200;
+my $args = $#ARGV + 1;
+
+if ( $args == 1 ) {
+	$exp = $ARGV[0];
+}
 
 my %cont = (
 	'7000CE', -100,
