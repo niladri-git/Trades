@@ -12,7 +12,16 @@ if ( $args == 1 ) {
 	$exp = $ARGV[0];
 }
 
-my %cont = (
+my %cont;
+open FILE, "temp.txt" or die $!;
+
+while (my $line = <FILE>) {
+	chomp($line);
+	(my $key, my $val) = split / /, $line;	
+	$cont{$key} = $val
+}
+	 
+my %cont1 = (
 	'7000CE', -100,
 	'7000PE', -50,
 	'7100PE', 100,
