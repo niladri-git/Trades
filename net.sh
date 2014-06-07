@@ -1,4 +1,4 @@
-cat contracts.txt | egrep 'CE|PE' | awk '{print $3 $1, $7}' > temp.txt
+cat contracts.txt | grep -v "#" | egrep 'CE|PE' | awk '{print $3 $1, $7}' > temp.txt
 
 if [ $# == 2 ]; then 
 	echo Range: $1 .. $2
