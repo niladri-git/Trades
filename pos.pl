@@ -4,6 +4,7 @@ use Trade qw(call put closure);
 
 $header = 0;
 my $exp;
+my $tot = 0;
 
 my $args = $#ARGV + 1;
 
@@ -30,12 +31,14 @@ foreach $key (sort keys %cont) {
 	my $qty = $cont{$key};
 	
 	if ( $typ =~ m/CE/ ) {
-		&call($dno, $qty, $exp);
+		$tot += &call($dno, $qty, $exp);
 	} 
 	
 	if ( $typ =~ m/PE/ ) {		
-		&put($dno, $qty, $exp);
+		$tot += &put($dno, $qty, $exp);
 	}
 	
 	#exit(0);
 }
+
+printf "\nExpiry: %-13s Total: %-10s\n", $exp, $tot;

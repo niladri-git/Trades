@@ -34,6 +34,7 @@ sub call {
 	
 	&closure($dn, 'CE', $qt, $t_val, $c_val, $n_val, $ex);
 	
+	return $n_val;
 }
 
 sub put {
@@ -52,8 +53,9 @@ sub put {
 		$n_val = $d_val;
 	}
 	
-	#&closure($t_val, $c_val, $n_val, $ex);
 	&closure($dn, 'PE', $qt, $t_val, $c_val, $n_val, $ex);
+	
+	return $n_val;
 }
 
 sub closure {
@@ -66,7 +68,7 @@ sub closure {
 	my $expiry = $_[6];
 	
 	if ( $header == 0 ) {
-		print "\nExpiry: $expiry \n";
+		#print "\nExpiry: $expiry \n";
 		printf "\n   %-12s %14s %15s %15s\n", "Contract", "Trade Val", "Cov Value", "Net Value";
 		print '-' x 65 . "\n";
 		$header = 1;
