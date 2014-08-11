@@ -1,0 +1,8 @@
+when the open interest of any derivative contract crosses 95% of the market-wide position limit it enters ban.
+
+The ban will be lifted only when the open interest of the derivative contract falls below 80%.
+
+All clients/members shall trade in the derivative contracts of said security only to decrease their positions through offsetting positions. Any increase in open positions shall attract appropriate penal and disciplinary action in accordance with the Circular No. NSCC/F&O/C&S/365 dated August 26, 2004.
+
+Link:
+http://nseindia.com/content/circulars/cmpt5382.htm
