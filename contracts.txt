@@ -1,15 +1,16 @@
-11-Aug:
+12-Aug:
 
 $ sh positions.sh | grep AUG
 
- PE   | 7400 | AUG   |  50
+ CE   | 7600 | AUG   |  50
  PE   | 7600 | AUG   |  50
- CE   | 7700 | AUG   | -50
+ CE   | 7700 | AUG   | -100
  PE   | 7700 | AUG   |  50
- CE   | 7800 | AUG   |  50
+ CE   | 7750 | AUG   |  50
  PE   | 7800 | AUG   | -50
+ CE   | 7850 | AUG   |  50
  CE   | 7900 | AUG   |  50
- PE   | 7900 | AUG   | -50
- CE   | 8000 | AUG   |  50
 
 +++
+
+ FX  | 7750 | AUG   |  50 #

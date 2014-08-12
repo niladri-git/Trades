@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use Trade qw(call put closure);
+use Trade qw(call put future closure);
 
 $header = 0;
 my $exp;
@@ -46,6 +46,10 @@ foreach $key (sort keys %cont) {
 	if ( $typ =~ m/PE/ ) {		
 		$tot += &put($dno, $qty, $exp);
 	}
+
+	if ( $typ =~ m/FX/ ) {
+		$tot += &future($dno, $qty, $exp);
+	} 	
 	
 	#exit(0);
 }

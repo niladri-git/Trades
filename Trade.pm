@@ -5,7 +5,7 @@ use Exporter;
 our @ISA= qw(Exporter);
 
 # these are exported by default.
-our @EXPORT = qw (call put closure);
+our @EXPORT = qw (call put future closure);
 
 sub call {
 	my $dn = $_[0];
@@ -35,6 +35,20 @@ sub call {
 	&closure($dn, 'CE', $qt, $t_val, $c_val, $n_val, $ex);
 	
 	return $n_val;
+}
+
+sub future {
+    my $dn = $_[0];
+    my $qt = $_[1];
+    my $ex = $_[2];
+
+    my $t_val = $dn * $qt;
+    my $c_val = $ex * $qt;
+    my $n_val = $c_val - $t_val;
+
+    &closure($dn, 'FX', $qt, $t_val, $c_val, $n_val, $ex);
+
+    return $n_val;
 }
 
 sub put {
