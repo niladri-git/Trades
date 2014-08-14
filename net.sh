@@ -1,17 +1,23 @@
 cat contracts.txt | grep -v "#" | egrep 'CE|PE|FX' | awk '{print $3 $1, $7}' > temp.txt
 
-if [ $# == 2 ]; then 
-	echo Range: $1 .. $2
+step=100
 
-	for ((i=$1; i<=$2; i=$i+100))
-	do
-		perl pos.pl $i 
-	done
-	
+if [ $# == 3 ]; then
+  echo Range: $1 .. $2
+  echo Step: $3
+ 
+  step=$3
+ 
+  for ((i=$1; i<=$2; i+=$step))
+  do
+    perl pos.pl $i
+  done
+ 
 else
-	for i in $*
-	do
-		perl pos.pl $i
-	done
-	
+
+  for i in $*
+  do
+    perl pos.pl $i
+  done
+ 
 fi

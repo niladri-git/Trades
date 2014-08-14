@@ -1,5 +1,7 @@
-if [ $# == 0 ]; then 
-	sh net.sh 7000 8000 | grep Total
+if [ $# == 1 ]; then
+  step=$1
 else
-	sh net.sh $* | grep Total
+  step=50
 fi
+
+sh net.sh 7400 8000 $step | grep Total
