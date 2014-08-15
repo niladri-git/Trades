@@ -1,0 +1,1 @@
+cat trades.txt | awk '{print $11}' 
