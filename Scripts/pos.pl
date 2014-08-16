@@ -21,17 +21,6 @@ while (my $line = <FILE>) {
 	$cont{$key} = $val
 }
 	 
-my %cont1 = (
-	'7000CE', -100,
-	'7000PE', -50,
-	'7100PE', 100,
-	'7200PE', 100,
-	'7300CE', -100,
-	'7300PE', -100,
-	'7400CE', 50,
-	'7500CE', 100
-);
-
 foreach $key (sort keys %cont) {
 	
 	$key =~ m/(\d+)(\w+)/;

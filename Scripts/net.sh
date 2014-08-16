@@ -1,4 +1,4 @@
-cat contracts.txt | grep -v "#" | egrep 'CE|PE|FX' | awk '{print $3 $1, $7}' > temp.txt
+cat contracts.txt | grep -v "#" | egrep 'CE|PE|FX' | awk '{print $3 $1, $NF}' > temp.txt
 
 step=100
 
