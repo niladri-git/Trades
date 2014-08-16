@@ -28,15 +28,15 @@ foreach $key (sort keys %cont) {
 	my $typ = $2;
 	my $qty = $cont{$key};
 	
-	if ( $typ =~ m/CE/ ) {
+	if ( $typ =~ m/CE|ce/ ) {
 		$tot += &call($dno, $qty, $exp);
 	} 
 	
-	if ( $typ =~ m/PE/ ) {		
+	if ( $typ =~ m/PE|pe/ ) {		
 		$tot += &put($dno, $qty, $exp);
 	}
 
-	if ( $typ =~ m/FX/ ) {
+	if ( $typ =~ m/FX|fx/ ) {
 		$tot += &future($dno, $qty, $exp);
 	} 	
 	
