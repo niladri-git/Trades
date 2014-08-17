@@ -3,5 +3,11 @@ head -1 prev.txt >> data.txt
 
 perl sum.pl
 
-echo
-sh run.sh 
+if [ $# -eq 1 ]
+then
+  perl sum.pl | tail -1 | awk '{print $2}' > prev.txt.new
+  exit
+else
+  echo
+  sh run.sh 
+fi
