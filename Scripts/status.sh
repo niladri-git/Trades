@@ -16,7 +16,7 @@ echo
 
 perl sum.pl $sum $min
 
-echo
-echo "FX"
-echo
-sh fut.sh
+fut=`sh fut.sh | tail -1 | awk '{print $2}'`
+echo 
+echo Fut: $fut
+perl sum.pl $sum $fut
