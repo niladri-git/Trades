@@ -1,4 +1,11 @@
-close=7903.15
+grep FUT today.txt | awk '{print $10 " " $8 " " $13}'
+echo
 
-echo "Buy		Sell"
-grep FUT today.txt | awk '{print $6 "		" $8 }'
+qty=-50
+trd=7903
+cls=7903
+
+echo "Qty: $qty" 
+echo "Trade: $trd	Close: $cls"
+
+echo $(( ($cls - $trd) * $qty ))

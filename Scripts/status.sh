@@ -15,3 +15,8 @@ echo Min: $min
 echo
 
 perl sum.pl $sum $min
+
+echo
+echo "FX"
+echo
+sh fut.sh
