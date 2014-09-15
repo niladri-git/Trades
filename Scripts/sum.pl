@@ -20,7 +20,7 @@ my $file = "data.txt";
 open(FILE, $file) or die("Unable to open file: $file\n");
 
 my @data, $val, $tot = 0;
-my @output = ("Today:\n", "\nPrev:\n", "\nMin:\n");
+my @output = ("\nToday:\n", "\nPrev:\n", "\nMin:\n");
 
 while (<FILE>) {
   

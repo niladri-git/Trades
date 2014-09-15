@@ -1,21 +1,21 @@
 Today:
 
--5845.00 3970.00 2082.50 -2775.00 1567.50
-Sum: -1000
+-2438.58
+Sum: -2438.58
 
 Prev:
 
-354258.43
-Sum: 353258.43
+353994.16
+Sum: 351555.58
 
-Expiry: 7500          Total: 25150     
-Expiry: 7550          Total: 22650     
-Expiry: 7600          Total: 20150     
-Expiry: 7650          Total: 20150     
-Expiry: 7700          Total: 20150     
-Expiry: 7750          Total: 20150     
-Expiry: 7800          Total: 20150     
-Expiry: 7850          Total: 20150     
-Expiry: 7900          Total: 20150     
-Expiry: 7950          Total: 22650     
-Expiry: 8000          Total: 22650     
+Expiry: 7500          Total: 28850     
+Expiry: 7550          Total: 26350     
+Expiry: 7600          Total: 23850     
+Expiry: 7650          Total: 23850     
+Expiry: 7700          Total: 23850     
+Expiry: 7750          Total: 23850     
+Expiry: 7800          Total: 23850     
+Expiry: 7850          Total: 23850     
+Expiry: 7900          Total: 23850     
+Expiry: 7950          Total: 23850     
+Expiry: 8000          Total: 23850     

@@ -1,0 +1,23 @@
+
+ $ sh positions.sh | grep SEP
+
+ PE   | 7700 | SEP   |  50
+ PE   | 7800 | SEP   |  50
+ CE   | 8100 | SEP   |  50
+ CE   | 8200 | SEP   |  50
+
++++
+
+$ sh positions.sh | grep OCT
+
+ CE   | 8000 | OCT   | -50
+ PE   | 8000 | OCT   | -50
+
++++
+
+$ sh positions.sh | grep DEC
+
+ CE   | 7500 | DEC   | -50
+ CE   | 8000 | DEC   | -50
+
++++
