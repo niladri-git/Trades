@@ -1,7 +1,10 @@
 
-$ sh positions.sh | grep SEP
+$ sh positions.sh | grep OCT
 
- CE   | 8050 | SEP   |  100 
- PE   | 8100 | SEP   |  50
+ PE   | 7800 | OCT   |  100
+ CE   | 7950 | OCT   |  50
+ CE   | 8050 | OCT   | -50
+ PE   | 8050 | OCT   |  50
+ CE   | 8400 | OCT   |  50
 
 +++

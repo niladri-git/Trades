@@ -1,0 +1,21 @@
+
+$ sh positions.sh | grep NOV
+
+ PE   | 7800 | NOV   |  150
+ PE   | 8000 | NOV   | -50
+ CE   | 8100 | NOV   |  50
+ CE   | 8250 | NOV   | -50
+
++++
+
+
+$ sh positions.sh | grep DEC
+
+ CE   | 7500 | DEC   | -50
+ CE   | 8000 | DEC   | -150
+ PE   | 8000 | DEC   | -50
+ CE   | 8300 | DEC   |  50
+ CE   | 8400 | DEC   |  100
+
++++
+
