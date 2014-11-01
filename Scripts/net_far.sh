@@ -1,5 +1,5 @@
-cat far.txt | grep NOV | grep -v "#" | egrep 'CE|PE|FX' | awk '{print $3 $1, $NF}' > temp_far.txt
-#cat far.txt | egrep 'ce|pe|fx' | grep NOV | awk '{print $1 $2,  $NF}' >> temp_far.txt
+cat far.txt | grep DEC | grep -v "#" | egrep 'CE|PE|FX' | awk '{print $3 $1, $NF}' > temp_far.txt
+#cat far.txt | egrep 'ce|pe|fx' | grep DEC | awk '{print $1 $2,  $NF}' >> temp_far.txt
 
 step=100
 

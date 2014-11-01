@@ -4,4 +4,4 @@ else
   step=50
 fi
 
-sh net_far.sh 7500 8300 $step | grep Total
+sh net_far.sh 7700 8500 $step | grep Total
