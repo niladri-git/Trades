@@ -1,10 +1,10 @@
 
 $ sh positions.sh | grep DEC
 
- CE   | 7500 | DEC   | -50
+ CE   | 7500 | DEC   | -50 #
  CE   | 8000 | DEC   | -150
  CE   | 8200 | DEC   |  50
- CE   | 8300 | DEC   |  75
+ CE   | 8300 | DEC   |  100
  CE   | 8400 | DEC   |  25
 
 +++
