@@ -2,7 +2,7 @@
 $ sh positions.sh | grep NOV
 
  CE   | 8100 | NOV   |  50
- CE   | 8200 | NOV   |  100
+ CE   | 8200 | NOV   |  75
  PE   | 8200 | NOV   |  25
  CE   | 8300 | NOV   | -100
  CE   | 8350 | NOV   |  25
@@ -23,5 +23,8 @@ $ sh positions.sh | grep DEC
 
 424777.33 + 1404.53
 426856.02
+
+426856.02 + 5435.38
+432291.40 
 
 +++
