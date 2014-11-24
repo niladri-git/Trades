@@ -1,12 +1,10 @@
 
 $ sh positions.sh | grep NOV
 
- CE   | 8100 | NOV   |  50
- CE   | 8200 | NOV   |  75
- PE   | 8250 | NOV   |  50
- CE   | 8300 | NOV   | -100
- PE   | 8300 | NOV   |  50
- PE   | 8350 | NOV   |  50
  CE   | 8450 | NOV   |  25
-
+ PE   | 8450 | NOV   |  25
+ CE   | 8500 | NOV   | -25
+ PE   | 8500 | NOV   |  25
+ PE   | 8550 | NOV   | -25 
+ 
 +++
