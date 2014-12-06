@@ -1,10 +1,13 @@
 
-$ sh positions.sh | grep DEC
+$ sh positions.sh | grep JAN
 
- CE   | 7500 | DEC   | -50 #
- CE   | 8000 | DEC   | -150
- CE   | 8200 | DEC   |  50
- CE   | 8300 | DEC   |  100
- CE   | 8400 | DEC   |  25
+ PE   | 8200 | JAN   |  25
+ CE   | 8400 | JAN   | -25
+
++++
+
+$ sh positions.sh | grep FEB
+
+ CE   | 8600 | FEB   | -25
 
 +++
