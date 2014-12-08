@@ -1,6 +1,7 @@
 
 $ sh positions.sh | grep DEC
 
+ PE   | 8300 | DEC   |  25
  PE   | 8500 | DEC   |  75
  CE   | 8600 | DEC   |  75
  CE   | 8700 | DEC   |  50
@@ -18,5 +19,8 @@ $ sh positions.sh | grep DEC
 
 15824.0 -551.64
 15272.36
+
+15272.36 -523.78
+14748.58
 
 +++
