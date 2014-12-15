@@ -7,7 +7,7 @@ $ sh positions.sh | grep DEC
  CE   | 8300 | DEC   |  100
  CE   | 8400 | DEC   | -25
  PE   | 8400 | DEC   | -25
- CE   | 8550 | DEC   | -75
+ CE   | 8550 | DEC   | -50
  PE   | 8550 | DEC   | -25
  PE   | 8600 | DEC   | -25
 
