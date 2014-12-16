@@ -1,6 +1,7 @@
 
 $ sh positions.sh | grep DEC
 
+ PE   | 7850 | DEC   |  25
  PE   | 7950 | DEC   |  25
  PE   | 8000 | DEC   |  25
  PE   | 8100 | DEC   |  25
