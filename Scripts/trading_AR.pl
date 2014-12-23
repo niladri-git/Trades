@@ -2,7 +2,7 @@
 
 my $cur_file = "AR.txt";
 my $old_file = "AR_old.txt";
-my %pos_AR, %pos_AR_old;
+my %pos_AR, %pos_AR_old, %trades_sum;
 
 for my $file ($cur_file, $old_file) {
 
@@ -38,7 +38,7 @@ foreach $key (sort keys %pos_AR) {
 	print "$key -> $pos_AR{$key}";
 }
 
-print "\nBF Trades: \n\n";
+print "\nTrades: \n\n";
 
 foreach my $key_old (sort keys %pos_AR_old) {
 
@@ -53,7 +53,7 @@ foreach my $key_old (sort keys %pos_AR_old) {
 			
 			my $diff = $cur - $old;
 			
-			printf "$key_old -> %4s \n", $diff;
+			$trades_sum{$key_old} = $diff;
 			
 			delete ( $pos_AR_old{$key_old} );
 			delete ( $pos_AR{$key_cur} );
@@ -64,12 +64,14 @@ foreach my $key_old (sort keys %pos_AR_old) {
 	}
 }
 
-print "\nNew Trades: \n\n";
-
 foreach my $key (sort keys %pos_AR_old) {
-	printf "$key -> %4s\n", int(0 - $pos_AR_old{$key});
+	$trades_sum{$key} = int(0 - $pos_AR_old{$key});
 }
 
 foreach my $key (sort keys %pos_AR) {
-	printf "$key -> %4s \n", int($pos_AR{$key});
+	$trades_sum{$key} = int($pos_AR{$key});
+}
+
+foreach my $key (sort keys %trades_sum) {
+	printf "$key -> %4s \n", int($trades_sum{$key});
 }

@@ -2,7 +2,7 @@
 
 my $cur_file = "TJ.txt";
 my $old_file = "TJ_old.txt";
-my %pos_TJ, %pos_TJ_old;
+my %pos_TJ, %pos_TJ_old, %trades_sum;
 
 for my $file ($cur_file, $old_file) {
 
@@ -38,7 +38,7 @@ foreach $key (sort keys %pos_TJ) {
 	print "$key -> $pos_TJ{$key}";
 }
 
-print "\nBF Trades: \n\n";
+print "\nTrades: \n\n";
 
 foreach my $key_old (sort keys %pos_TJ_old) {
 
@@ -53,7 +53,7 @@ foreach my $key_old (sort keys %pos_TJ_old) {
 			
 			my $diff = $cur - $old;
 			
-			printf "$key_old -> %4s \n", $diff;
+			$trades_sum{$key_old} = $diff;
 			
 			delete ( $pos_TJ_old{$key_old} );
 			delete ( $pos_TJ{$key_cur} );
@@ -64,12 +64,14 @@ foreach my $key_old (sort keys %pos_TJ_old) {
 	}
 }
 
-print "\nNew Trades: \n\n";
-
 foreach my $key (sort keys %pos_TJ_old) {
-	printf "$key -> %4s\n", int(0 - $pos_TJ_old{$key});
+	$trades_sum{$key} = int(0 - $pos_TJ_old{$key});
 }
 
 foreach my $key (sort keys %pos_TJ) {
-	printf "$key -> %4s \n", int($pos_TJ{$key});
+	$trades_sum{$key} = int($pos_TJ{$key});
+}
+
+foreach my $key (sort keys %trades_sum) {
+	printf "$key -> %4s \n", int($trades_sum{$key});
 }
