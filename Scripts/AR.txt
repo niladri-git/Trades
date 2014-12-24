@@ -1,8 +1,6 @@
 
 $ sh positions.sh | grep DEC
 
- CE   | 8150 | DEC   | -25
-
 +++
 
 444369.88 -12803.42
