@@ -38,13 +38,9 @@ foreach $key (sort keys %pos_far) {
 	print "$key -> $pos_far{$key}";
 }
 
-print "\nTrades: \n\n";
-
 foreach my $key_old (sort keys %pos_far_old) {
 
 	foreach my $key_cur (sort keys %pos_far) {
-	
-		my $found = 0;
 	
 		if ( $key_old =~ m/$key_cur/) {
 					
@@ -53,14 +49,16 @@ foreach my $key_old (sort keys %pos_far_old) {
 			
 			my $diff = $cur - $old;
 			
-			$trades_sum{$key_old} = $diff;
+			if ($diff != 0) {
+				$trades_sum{$key_old} = $diff;
+			}
 			
 			delete ( $pos_far_old{$key_old} );
 			delete ( $pos_far{$key_cur} );
 			
 			next;
 			
-		}
+		} 
 	}
 }
 
@@ -72,6 +70,12 @@ foreach my $key (sort keys %pos_far) {
 	$trades_sum{$key} = int($pos_far{$key});
 }
 
+print "\nTrades: \n\n";
+
 foreach my $key (sort keys %trades_sum) {
-	printf "$key -> %4s \n", int($trades_sum{$key});
+
+	if ($trades_sum{$key} != 0) {
+		printf "$key -> %4s \n", int($trades_sum{$key});
+	}
+	
 }
