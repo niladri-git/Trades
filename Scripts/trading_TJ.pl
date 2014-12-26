@@ -26,6 +26,8 @@ for my $file ($cur_file, $old_file) {
 
 }
 
+print "\nBroker: TJ \n\n";
+
 print "\nOld Pos: \n\n";
 			
 foreach $key (sort keys %pos_TJ_old) {
