@@ -75,7 +75,7 @@ print "\nTrades: \n\n";
 foreach my $key (sort keys %trades_sum) {
 
 	if ($trades_sum{$key} != 0) {
-		printf "$key -> %4s \n", int($trades_sum{$key});
+		printf "$key \t => %6s \n", int($trades_sum{$key});
 	}
 	
 }
