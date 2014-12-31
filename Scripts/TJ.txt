@@ -1,11 +1,11 @@
 ﻿
 $ sh positions.sh | grep JAN
 
- PE   | 8000 | JAN   |  75
- PE   | 8050 | JAN   |  25
- PE   | 8100 | JAN   |  50
+ PE   | 8000 | JAN   |  25
+ PE   | 8100 | JAN   |  75
+ PE   | 8150 | JAN   |  25
+ CE   | 8400 | JAN   |  25
  CE   | 8450 | JAN   |  50
- CE   | 8500 | JAN   |  50
  
 +++
 
