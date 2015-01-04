@@ -1,0 +1,28 @@
+Train No./Name : 	02527 / MAS KYQ PREMIUM 	Journey date : 	11-Jan-2015 	Class : 	THIRD AC
+From Station : 	CHENNAI CENTRAL - MAS 	To Station : 	NEW JALPAIGURI - NJP 	Quota : 	GENERAL
+Boarding Station : 	CHENNAI CENTRAL - MAS 	Reservation Upto : 	NEW JALPAIGURI - NJP 		
+					
+Passenger Details
+S. No.	Name 	Age 	Gender	Berth Preference	Meal 	ID Type / ID No.
+1	NILADRI DATTA	35	Male	LB	Veg	PANCARD / AFHPN6940G
+2	NISITH DATTA	66	Male	UB	Veg	PANCARD / AEZPD8231P
+3	IRA DATTA	58	Female	LB	Veg	PANCARD / AJMPD7052J
+4	IPSITA DATTA	30	Female	SL	Veg	PANCARD / ARZPD9642D
+
+Infant Details
+S. No.	Name 	Age 	Gender
+1	IKSHA SHOME	2	Female
+Availability Details
+Availability : 	AVAILABLE-0427
+Availability At :		Sun Jan 04 20:32:07 IST 2015 IST
+ 	
+ 	
+	
+Fare Details
+Ticket Fare :		₹ 11780.00 	*
+		
+Service Charge (Incl. of Service Tax) #:		₹ 22.47 	 
+Total Fare :		₹ 11802.47 	 
+ * Ticket fare includes Service Tax of ₹ 344.00
+ 
+ +++
