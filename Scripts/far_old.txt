@@ -1,7 +1,9 @@
 
 $ sh positions.sh | grep FEB
 
+ PE   | 8000 | FEB   | -25
  PE   | 8200 | FEB   | -25
+ CE   | 8300 | FEB   | -25
  CE   | 8600 | FEB   | -25
 
 +++
