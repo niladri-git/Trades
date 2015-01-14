@@ -12,5 +12,6 @@ $ sh positions.sh | grep FEB
 $ sh positions.sh | grep MAR
 
  PE   | 8000 | MAR   | -50
+ PE   | 8500 | MAR   | -25
  
 +++

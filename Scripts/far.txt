@@ -5,6 +5,7 @@ $ sh positions.sh | grep FEB
  PE   | 8000 | FEB   | -25
  PE   | 8200 | FEB   | -25
  CE   | 8300 | FEB   | -25
+ CE   | 8400 | FEB   | -25
  CE   | 8600 | FEB   | -25
 
 +++
@@ -12,5 +13,6 @@ $ sh positions.sh | grep FEB
 $ sh positions.sh | grep MAR
 
  PE   | 8000 | MAR   | -50
+ PE   | 8500 | MAR   | -25
  
 +++
