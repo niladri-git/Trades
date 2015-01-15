@@ -1,18 +1,21 @@
+
 $ sh positions.sh | grep JAN
 
  CE   | 8000 | JAN   | -25
- CE   | 8100 | JAN   | -25
- PE   | 8100 | JAN   | -25
- PE   | 8200 | JAN   |  50
  CE   | 8250 | JAN   |  25
- PE   | 8250 | JAN   |  50
-
-# AC   | 8300 | JAN   | -25
-# TC   | 8300 | JAN   |  50
-
+ PE   | 8250 | JAN   |  25
+ 
+ AC   | 8300 | JAN   | -25 #
+ TC   | 8300 | JAN   |  50 #
+ 
  CE   | 8300 | JAN   |  25
- PE   | 8300 | JAN   | -25
- CE   | 8400 | JAN   |  50
+ PE   | 8350 | JAN   |  100
+ CE   | 8400 | JAN   |  25
  PE   | 8400 | JAN   | -25
+ CE   | 8450 | JAN   | -25
+ CE   | 8500 | JAN   | -25
+ PE   | 8600 | JAN   | -25
+ CE   | 8700 | JAN   |  25
  
 +++
+
