@@ -1,4 +1,4 @@
-for file in contracts AR TJ far
+for file in contracts AR TJ far projected
 
 do
 	cur="$file.txt"
