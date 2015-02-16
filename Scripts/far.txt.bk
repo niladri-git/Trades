@@ -4,6 +4,7 @@ $ sh positions.sh | grep MAR
  PE   | 8100 | MAR   | -25
  CE   | 8500 | MAR   | -25
  PE   | 8500 | MAR   | -25
+ PE   | 8800 | MAR   | -25
  PE   | 9000 | MAR   | -25
  
 +++

@@ -1,10 +1,9 @@
 ﻿
 $ sh positions.sh | grep FEB
 
- PE   | 8300 | FEB   |  25
- PE   | 8550 | FEB   |  25
+ PE   | 8550 | FEB   |  50
  CE   | 8700 | FEB   |  25
- CE   | 9200 | FEB   |  25
+ CE   | 8950 | FEB   |  25
 
 +++
 
@@ -13,5 +12,8 @@ $ sh positions.sh | grep FEB
 
 79848.88 -390.13
 79458.75
+
+79458.75 -1485.71
+77973.04
 
 +++
