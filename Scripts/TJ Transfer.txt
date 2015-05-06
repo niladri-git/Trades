@@ -1,0 +1,15 @@
+54,500.00 
+
++++
+
+Client ID 	: 	TI0022
+Amount 	: 	24500.0000
+Merchant Ref No 	: 	150406000135
+Status 	: 	Transaction Succes
+BankReference No 	: 	141047293
+Date 	: 	1428315452
+Bank Name 	: 	Axis Bank
+
++++
+
+50300080032442
