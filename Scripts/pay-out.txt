@@ -15,7 +15,14 @@
 	NSE-FNO 20 06/04/2015 BR Being amount received from TI0022-IRA DATTA-141047293 through NEST Payment Gateway
 	24500.000 
 	
-	Net Withdrawl:		30,000.00
+	Net Withdrawal :	30,000.00
 	
 5	Total:				1,45,000.00
+
+6	Assets:				4,50,000.00					Date : 21/05/2015
+	
+	AR :	2,46,931.89
+	TJ :	44,760.66
+	RK :	16,558.85
+	PO :	1,45,000.00
 	
