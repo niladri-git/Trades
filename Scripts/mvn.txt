@@ -1,0 +1,12 @@
+
+C:\MVN> mvn archetype:generate -DgroupId=com.companyname.bank -DartifactId=consumerBanking -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+C:\MVN\consumerBanking>mvn clean package
+
+C:\MVN\consumerBanking\target\classes>java com.companyname.bank.App
+Hello World!
+
+C:\MVN\consumerBanking\target> java -cp consumerBanking-1.0-SNAPSHOT.jar com.companyname.bank.App
+Hello World!
+
+C:\MVN>mvn site

@@ -1,9 +1,27 @@
 ﻿
 $ sh positions.sh | grep JUN
 
- CE  | 8200 | JUN   | -50
- 
+ PE  | 7900 | JUN   |  25
+ CE  | 8200 | JUN   | -75
+ PE  | 8300 | JUN   | -25
+ PE  | 8400 | JUN   | -25
+ PE  | 8500 | JUN   | -25
+ CE  | 8700 | JUN   |  25
+ CE  | 8800 | JUN   |  25
+
 +++
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
