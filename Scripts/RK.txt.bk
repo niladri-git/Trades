@@ -1,9 +1,10 @@
 ﻿
 $ sh positions.sh | grep MAY
 
- PE   | 8200 | MAY   |  25
  PE   | 8350 | MAY   |  50
  PE   | 8400 | MAY   | -25
+ PE   | 8450 | MAY   |  25
+ CE   | 8500 | MAY   |  25
  CE   | 8550 | MAY   |  25
 
 +++
@@ -14,7 +15,14 @@ $ sh positions.sh | grep MAY
 10814.42 +5744.43
 16558.85
 
+16558.85 -5227.67
+11331.18
+
 +++
+
+
+
+
 
 
 

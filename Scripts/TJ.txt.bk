@@ -1,5 +1,7 @@
 ﻿
-$ sh positions.sh | grep MAY
+$ sh positions.sh | grep JUN
+
+ PE  | 7900 | JUN   |  25
 
 
 +++
