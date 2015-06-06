@@ -1,15 +1,29 @@
 ﻿
-$ sh positions.sh | grep MAY
+$ sh positions.sh | grep JUN
 
- PE   | 8350 | MAY   |  50
- CE   | 8400 | MAY   | -25
- PE   | 8400 | MAY   | -25
- PE   | 8450 | MAY   |  25
- CE   | 8500 | MAY   |  25
- PE   | 8500 | MAY   | -25
- CE   | 8550 | MAY   |  25
+ CE  | 8200 | JUN   | -75
+ PE  | 8200 | JUN   |  100
+ PE  | 8300 | JUN   | -25
+ CE  | 8400 | JUN   |  25
+ PE  | 8400 | JUN   | -25
+ CE  | 8500 | JUN   |  50
+ PE  | 8500 | JUN   | -25
   
 +++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
