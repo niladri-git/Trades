@@ -1,15 +1,77 @@
 ﻿
-$ sh positions.sh | grep JUN
+$ sh positions.sh | grep JUL
 
- CE  | 8200 | JUN   | -75
- PE  | 8200 | JUN   |  100
- PE  | 8300 | JUN   | -25
- CE  | 8400 | JUN   |  25
- PE  | 8400 | JUN   | -25
- CE  | 8500 | JUN   |  50
- PE  | 8500 | JUN   | -25
-  
+ PE  | 8000 | JUL   |  75
+ CE  | 8100 | JUL   | -75
+ PE  | 8100 | JUL   |  25
+ PE  | 8200 | JUL   |  50
+ PE  | 8300 | JUL   | -25
+ PE  | 8400 | JUL   | -100
+ CE  | 8600 | JUL   |  25
+ CE  | 8700 | JUL   |  75
+
 +++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
