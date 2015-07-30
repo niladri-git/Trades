@@ -1,7 +1,7 @@
 
 $ sh positions.sh | grep JUN
 
- CE  | 8600 | JUL   |  50
+ CE  | 8500 | JUL   |  50
  CE  | 8700 | JUL   |  25 
 
 +++
