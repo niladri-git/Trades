@@ -1,9 +1,8 @@
 
-$ sh positions.sh | grep AUG
+$ sh positions.sh | grep SEP
 
- CE  | 8500 | AUG   | -50
- PE  | 8600 | AUG   | -25
- PE  | 8700 | AUG   | -25
+ CE  | 8500 | SEP   | -25
+ PE  | 8500 | SEP   | -25
 
 +++
 
