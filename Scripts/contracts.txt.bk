@@ -1,9 +1,10 @@
 
-$ sh positions.sh | grep JUL
-
- PE  | 8350 | JUL   |  25
- CE  | 8500 | JUL   |  50
- CE  | 8700 | JUL   |  25 
+$ sh positions.sh | grep AUG
+ 
+ PE  | 7700 | AUG   |  50
+ CE  | 7800 | AUG   | -50
+ CE  | 7900 | AUG   |  25
+ CE  | 8000 | AUG   |  50
  
 +++
 

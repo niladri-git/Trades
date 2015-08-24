@@ -1,9 +1,10 @@
 
-$ sh positions.sh | grep AUG
-
- CE  | 8500 | AUG   | -50
- PE  | 8600 | AUG   | -25
- PE  | 8700 | AUG   | -25
+$ sh positions.sh | grep SEP
+ 
+ PE  | 7400 | SEP   |  25 @TJ
+ CE  | 8000 | SEP   | -75
+ PE  | 8500 | SEP   | -50
+ CE  | 8600 | SEP   | -50 @RK
 
 +++
 

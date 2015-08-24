@@ -1,8 +1,10 @@
 
 $ sh positions.sh | grep SEP
-
- CE  | 8500 | SEP   | -25
- PE  | 8500 | SEP   | -25
+ 
+ PE  | 7400 | SEP   |  25 @TJ
+ CE  | 8000 | SEP   | -75
+ PE  | 8500 | SEP   | -50
+ CE  | 8600 | SEP   | -50 @RK
 
 +++
 

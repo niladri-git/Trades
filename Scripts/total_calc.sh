@@ -12,3 +12,10 @@ sh total_TJ.sh
 echo
 echo +++
 echo
+
+echo "Today's Value: RK" 
+sh total_RK.sh
+
+echo
+echo +++
+echo
