@@ -1,4 +1,4 @@
-MONTH=JAN
+MONTH=SEP
 
 cat far.txt | grep $MONTH | grep -v "#" | egrep 'CE|PE|FX' | awk '{print $3 $1, $NF}' > temp_far.txt
 #cat far.txt | egrep 'ce|pe|fx' | grep DEC | awk '{print $1 $2,  $NF}' >> temp_far.txt
