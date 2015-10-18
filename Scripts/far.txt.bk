@@ -1,6 +1,6 @@
 
-$ sh positions.sh | grep OCT
- 
- PE  | 8000 | OCT   | -25 
+$ sh positions.sh | grep NOV
+  
+
 
 +++
